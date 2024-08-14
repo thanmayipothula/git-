@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanmayi</title>
+</head>
+<body>
+    <form onsubmit="check(event)">
+        <input type="text" id="uname" placeholder="Enter username">
+        <input type="password" id="pswd" placeholder="Enter password">
+        <input type="submit" value="Submit">
+        <p id="demo"></p>
+        <p id="dem"></p>
+    </form>
+    <script>
+        function check(event) {
+            event.preventDefault(); 
+            let uname = document.getElementById("uname").value;
+            let pswd = document.getElementById("pswd").value;
+            document.getElementById("demo").innerHTML = uname;
+            document.getElementById("dem").innerHTML = pswd;
+        }
+    </script>
+</body>
+</html>
