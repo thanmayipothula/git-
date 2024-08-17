@@ -1,0 +1,11 @@
+.header{
+    display:flex;
+    gap:670px;
+    border:2px solid black;
+    height:200px;
+    width:100%;
+    background-color: rgb(147, 231, 172);
+}
+img{
+    height:200px;
+}
